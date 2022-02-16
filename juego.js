@@ -39,8 +39,20 @@ function moverEmoji(){
 //ejecuto el juego
 moverEmoji()
 
+//tiempo
+function contadorRegresivo(){
+    tiempoInicial--
+    tiempo.textContent = tiempoInicial
 
+    if(tiempoInicial==0){
+        clearInterval(conteoTiempo)
+        clearInterval(idTiempo)
+        alert('Game Over Su puntaje es : ' + resultado);
+    }
+}
 
+//ejecuta la funcion que retrocede el tiempo
+let conteoTiempo = setInterval(contadorRegresivo,1000)
 
 
 
