@@ -14,8 +14,13 @@
     background-size: cover;
 }
 
+.emojiMalo {
+    background-image: url("imagenes/emojiMalo.jpg");
+    background-size: cover;
+}
+
 .cuadro {
     height: 200px;
     width: 200px;
-    border: solid red 1px;
+    border: solid rgb(4, 0, 255) 1px;
 }
