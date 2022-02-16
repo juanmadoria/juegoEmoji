@@ -1,20 +1,20 @@
-.grilla{
+.grilla {
     width: 606px;
     height: 606px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
 }
 
-.emoji{
-    background-image: url("imagenes/emoji.jpg");
+.emoji {
+    background-image: url("imagenes/emoji.png");
     background-size: cover;
 }
 
-.cuadro{
+.cuadro {
     height: 200px;
     width: 200px;
     border: solid red 1px;
